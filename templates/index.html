@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Weather</title>
+
+    <link rel="canonical"
+          href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous">
+    <link href="/static/cover.css" rel="stylesheet" type="text/css">
+    <style>
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main class="px-3 my-auto">
+        <h1 class="display-6">Weather app</h1>
+        <p class="lead">
+            Just input city name you're interested in <br>
+            to get weather forecast
+        </p>
+        <form method="post" action="#">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput"
+                       placeholder="Москва" autocomplete="off" maxlength="50" name="location-name">
+                <label class="text-muted" for="floatingInput">City name</label>
+            </div>
+            <button type="submit" class="btn btn-lg btn-outline-light">Get forecast</button>
+        </form>
+
+    </main>
+
+    <footer class="mt-auto text-white-50">
+        <p> © 2021 <a href="https://github.com/WannaFight"
+                      class="text-white">Ivan Trushin</a>.</p>
+    </footer>
+</div>
+
+</body>
+</html>

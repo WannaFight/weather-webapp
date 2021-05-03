@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+venv/
+config.py
+templates/background-video.html
+templates/suggestions.html
+static/Lightning.mp4
